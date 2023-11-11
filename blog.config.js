@@ -220,7 +220,7 @@ const BLOG = {
       lrc: 'https://drive.google.com/uc?export=download&id=1Cd6ZjEoFHoX_oTdd_Ik4Sdjj3ghsdNp6',
       cover:
             'https://drive.google.com/uc?export=download&id=1FsCVwXQhY1HC8pW1WXqke0i07gGVb5GO'
-    }
+    },
     {
       name: '月の記憶',
       artist: '深澤秀行 (ふかさわ ひでゆき)',
