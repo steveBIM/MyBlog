@@ -32,20 +32,20 @@ const BlogListPage = ({ page = 1, posts = [], postCount, siteInfo }) => {
   /**
    * 文章重新布局，使纵向排列看起来是横向排列
    */
-  //useEffect(() => {
-    // count = posts?.length || 0
-    //const rows = Math.ceil(count / columns)
-    //const newFilterPosts = []
-    //for (let i = 0; i < columns; i++) {
-      //for (let j = 0; j < rows; j++) {
-        //const index = j * columns + i
-        //if (index < count) {
-          //newFilterPosts.push(deepClone(posts[index]))
-        //}
-      //}
-    //}
-    //setFilterPosts(newFilterPosts)
-  //}, [columns, posts])
+  useEffect(() => {
+     count = posts?.length || 0
+    const rows = Math.ceil(count / columns)
+    const newFilterPosts = []
+    for (let i = 0; i < columns; i++) {
+      for (let j = 0; j < rows; j++) {
+        const index = j * columns + i
+        if (index < count) {
+          newFilterPosts.push(deepClone(posts[index]))
+        }
+      }
+    }
+    setFilterPosts(newFilterPosts)
+  }, [columns, posts])
 
   if (!filterPosts || filterPosts.length === 0) {
     return <BlogPostListEmpty />
