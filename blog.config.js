@@ -206,19 +206,28 @@ const BLOG = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
-      name: '风を共に舞う気持ち',
-      artist: 'Falcom Sound Team jdk',
+      name: '10th symphony type_MOON',
+      artist: '深澤秀行 (ふかさわ ひでゆき)',
       url: 'https://drive.google.com/uc?export=download&id=1e-q0rx2kFA4qBSXI42p2XJOY0xegF6UD',
       lrc: 'https://drive.google.com/uc?export=download&id=13vaBrVgobYvJU5fxj789mMq3DEiKB4_6',
       cover:
             'https://drive.google.com/uc?export=download&id=10DwUgCCPLVrgd5pocx6lzE4sjdx4gjzC'
     },
     {
-      name: '王都グランセル',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://drive.google.com/file/d/1QUle2gbOrW4xlmYeSLufnU_uPWir_H1x/view',
+      name: '月の記憶',
+      artist: '深澤秀行 (ふかさわ ひでゆき)',
+      url: 'https://drive.google.com/uc?export=download&id=1gxIapp8LxkeK4liCDqSej4LMT8gY0Vm_',
+      lrc: 'https://drive.google.com/uc?export=download&id=1Cd6ZjEoFHoX_oTdd_Ik4Sdjj3ghsdNp6',
       cover:
-            'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+            'https://drive.google.com/uc?export=download&id=1FsCVwXQhY1HC8pW1WXqke0i07gGVb5GO'
+    }
+    {
+      name: '月の記憶',
+      artist: '深澤秀行 (ふかさわ ひでゆき)',
+      url: 'https://drive.google.com/uc?export=download&id=1iGzS9pINjSieaP9uz8Or5w8Wh5wI9_wc',
+      lrc: 'https://drive.google.com/uc?export=download&id=1HzaJG-RJ74oIVTV8OQgNDWeUHcx1leqz',
+      cover:
+            'https://drive.google.com/uc?export=download&id=1-etFRbA284A-lyJ1BBGQ7d6KjIPINe3p'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
