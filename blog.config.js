@@ -208,9 +208,10 @@ const BLOG = {
     {
       name: '风を共に舞う気持ち',
       artist: 'Falcom Sound Team jdk',
-      url: 'https://drive.google.com/uc?export=download&id=1QUle2gbOrW4xlmYeSLufnU_uPWir_H1x',
+      url: 'https://drive.google.com/uc?export=download&id=10DwUgCCPLVrgd5pocx6lzE4sjdx4gjzC',
+      lrc: 'https://drive.google.com/uc?export=download&id=13vaBrVgobYvJU5fxj789mMq3DEiKB4_6',
       cover:
-            'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+            'https://drive.google.com/uc?export=download&id=1e-q0rx2kFA4qBSXI42p2XJOY0xegF6UD'
     },
     {
       name: '王都グランセル',
