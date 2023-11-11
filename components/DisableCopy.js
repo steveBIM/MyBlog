@@ -14,6 +14,5 @@ export default function DisableCopy() {
       alert('抱歉，本网页内容不可复制！')
       })
   }, [])
-
   return null
 }
