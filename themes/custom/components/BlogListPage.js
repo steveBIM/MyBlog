@@ -33,7 +33,7 @@ const BlogListPage = ({ page = 1, posts = [], postCount, siteInfo }) => {
    * 文章重新布局，使纵向排列看起来是横向排列
    */
   useEffect(() => {
-     count = posts?.length || 0
+    const count = posts?.length || 0
     const rows = Math.ceil(count / columns)
     const newFilterPosts = []
     for (let i = 0; i < columns; i++) {
