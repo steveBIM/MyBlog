@@ -38,7 +38,7 @@ const Player = () => {
     if (!meting && window.APlayer) {
       setPlayer(new window.APlayer({
         container: ref.current,
-        fixed: true,
+        fixed: false,
         lrcType: lrcType,
         autoplay: autoPlay,
         order: order,
@@ -63,7 +63,7 @@ const Player = () => {
       />
       {meting
         ? <meting-js
-            fixed="true"
+            fixed="false"
             type="playlist"
             preload="auto"
             lrc-type={siteConfig('MUSIC_PLAYER_METING_LRC_TYPE')}
