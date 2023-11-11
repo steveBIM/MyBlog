@@ -208,7 +208,7 @@ const BLOG = {
     {
       name: '风を共に舞う気持ち',
       artist: 'Falcom Sound Team jdk',
-      url: 'http://music.163.com/song/media/outer/url?id=224324.mp3',
+      url: 'https://drive.google.com/uc?export=download&id=1QUle2gbOrW4xlmYeSLufnU_uPWir_H1x',
       cover:
             'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
     },
