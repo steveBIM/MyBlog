@@ -198,7 +198,7 @@ const BLOG = {
   MUSIC_PLAYER_VISIBLE: process.env.NEXT_PUBLIC_MUSIC_PLAYER_VISIBLE || true, // 是否在左下角显示播放和切换，如果使用播放器，打开自动播放再隐藏，就会以类似背景音乐的方式播放，无法取消和暂停
   MUSIC_PLAYER_AUTO_PLAY:
         process.env.NEXT_PUBLIC_MUSIC_PLAYER_AUTO_PLAY || true, // 是否自动播放，不过自动播放时常不生效（移动设备不支持自动播放）
-  MUSIC_PLAYER_LRC_TYPE: process.env.NEXT_PUBLIC_MUSIC_PLAYER_LRC_TYPE || '3', // 歌词显示类型，可选值： 3 | 1 | 0（0：禁用 lrc 歌词，1：lrc 格式的字符串，3：lrc 文件 url）（前提是有配置歌词路径，对 meting 无效）
+  MUSIC_PLAYER_LRC_TYPE: process.env.NEXT_PUBLIC_MUSIC_PLAYER_LRC_TYPE || '0', // 歌词显示类型，可选值： 3 | 1 | 0（0：禁用 lrc 歌词，1：lrc 格式的字符串，3：lrc 文件 url）（前提是有配置歌词路径，对 meting 无效）
   MUSIC_PLAYER_CDN_URL:
         process.env.NEXT_PUBLIC_MUSIC_PLAYER_CDN_URL ||
         'https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js',
@@ -223,12 +223,125 @@ const BLOG = {
     },
     {
       name: '光の涯',
-      artist: ' SUGIZO (スギゾー) _ AiNA THE END (アイナ・ジ・エンド)',
+      artist: 'SUGIZO (スギゾー) _ AiNA THE END (アイナ・ジ・エンド)',
       url: 'https://drive.google.com/uc?export=download&id=1iGzS9pINjSieaP9uz8Or5w8Wh5wI9_wc',
       cover:
             'https://drive.google.com/uc?export=download&id=1-etFRbA284A-lyJ1BBGQ7d6KjIPINe3p',
       lrc: 'music\lrc\光の涯 - SUGIZO (スギゾー) _ AiNA THE END (アイナ・ジ・エンド).lrc',
-    }
+    },
+    {
+      name: '孤島',
+      artist: 'KOKIA (吉田亚纪子)',
+      url: 'https://drive.google.com/uc?export=download&id=18kkXfqjl9QzzEz1IJMGV6piyUPmUGbt4',
+      cover:
+            'https://drive.google.com/uc?export=download&id=1LnwzllsD4oeFEOXJFuv0hiuPWH18ChMs',
+    },
+    {
+      name: '或る従者の閉塞的結論',
+      artist: 'efs (いーえふえす)',
+      url: 'https://drive.google.com/uc?export=download&id=10Ipr0dsSGiHRFRUb9wKRnzqR_TySE_hN',
+      cover:
+            'https://drive.google.com/uc?export=download&id=1kGEdyn0M5iKeMFd6dlp5o2dFDd6XlJkZ',
+    },
+    {
+      name: '空と君のあいだに (天空与你之间)',
+      artist: 'Ms_OOJA (ミス・オオジャ)',
+      url: 'https://drive.google.com/uc?export=download&id=1Kn3u0E5uXqi5ytH6wfUcA8wosFHQ0apw',
+      cover:
+            'https://drive.google.com/uc?export=download&id=1qT6WBzPmsFQVOwA7NS_Vf1soXFAq5uX5',
+    },
+    {
+      name: '海色',
+      artist: 'AKINO (川満愛希信)',
+      url: 'https://drive.google.com/uc?export=download&id=1XlPhvVBX4mWguDVeAYX7CBSVp2EjzOnK',
+      cover:
+            'https://drive.google.com/uc?export=download&id=1TqMv9BNq8_R8p1RaFRbG9DIAw7JijJBU',
+    },
+    {
+      name: '逢いたくて(好想见你)',
+      artist: '宮脇詩音 (みやわき しおん)',
+      url: 'https://drive.google.com/uc?export=download&id=1WlkCwhRvQg6lAJIePGpmdtnbhXn25oqH',
+      cover:
+            'https://drive.google.com/uc?export=download&id=1UDkeO08o9AwNfmTQJagkTBNpwj_vTyem',
+    },
+    {
+      name: '陽だまり探して[with Marcia]',
+      artist: '幽闭星光 (幽閉サテライト)',
+      url: 'https://drive.google.com/uc?export=download&id=1cJGNtmm-rkptNIGf_5as5G8T6xiRjfDL',
+      cover:
+            'https://drive.google.com/uc?export=download&id=1biabtuMqQOXAOyTZe-AhPoBwfeEv5pyd',
+    },
+    {
+      name: '新世界へ',
+      artist: '存流 _ 明透',
+      url: 'https://drive.google.com/uc?export=download&id=1XoltVIFGfVP2joIF73HOjYMWZuONYmQ3',
+      cover:
+            'https://drive.google.com/uc?export=download&id=14wM8Nw2dL0cUUpZ4WFpFw9bWLhAi7eue',
+    },
+    {
+      name: '罪人',
+      artist: 'LiSA (织部里沙)',
+      url: 'https://drive.google.com/uc?export=download&id=1GOxx2l8eKFHEpsnHdqMU8ecLN8Cne7r3',
+      cover:
+            'https://drive.google.com/uc?export=download&id=1mnT122r0yuPWCmrLjWMS2989IupI6H0O',
+    },
+    {
+      name: '零れ桜 (落樱)',
+      artist: '幽闭星光 (幽閉サテライト) _ 森永真由美 (もりなが まゆみ)',
+      url: 'https://drive.google.com/uc?export=download&id=1JXF-1BeRY9xc8eKlrneM0Y54_dr7qdUp',
+      cover:
+            'https://drive.google.com/uc?export=download&id=1_RksQqB0kZeBGquQTN-Jl0oOGpeOYEmu',
+    },
+    {
+      name: '蒼穹のファンファーレ (苍穹的号角)',
+      artist: 'FictionJunction (フィクションジャンクション) _ 藍井エイル (蓝井艾露) _ ASCA (アスカ) _ ReoNa (レオナ)',
+      url: 'https://drive.google.com/uc?export=download&id=1HC2a483S1XQxg8KaeLXq-0tI6FuI9Ei1',
+      cover:
+            'https://drive.google.com/uc?export=download&id=1hk4zC8s4aqxdohPAYNnnpwiab247r5UL',
+    },
+    {
+      name: '輝く空の静寂には (在光辉苍穹的寂静之中)',
+      artist: 'Kalafina (カラフィナ)',
+      url: 'https://drive.google.com/uc?export=download&id=1pebLyr1BqTcDG2kvSUwfO7Rax2IbKcET',
+      cover:
+            'https://drive.google.com/uc?export=download&id=1ayd1iCHQcNpXle6OuNsUNNdPfCSgEuQQ',
+    },
+    {
+      name: 'At Your Disposal (feat_ Luschka)',
+      artist: 'やまだ豊 (山田豊)',
+      url: 'https://drive.google.com/uc?export=download&id=1JfPRNC7QthW9EdJHiRx8VEQqAYTlGpoM',
+      cover:
+            'https://drive.google.com/uc?export=download&id=1xUXnhiE18Kb8v1qV2HGsPoRvw4pP99cv',
+    },
+    {
+      name: 'FOR 送给你的歌',
+      artist: '菅原纱由理THE SxPLAY.',
+      url: 'https://drive.google.com/uc?export=download&id=1iHWKC3jsQJLjDBkmJt3uvC-8vQ1FQfd0',
+      cover:
+            'https://drive.google.com/uc?export=download&id=1hFXXf-PyCKy736dhoBwz1ubp5KNFv45j',
+    },
+    {
+      name: 'GIRAFFE BLUES (Freyja Solo)',
+      artist: '铃木实里 (鈴木みのり).',
+      url: 'https://drive.google.com/uc?export=download&id=1Ddq5PMdnKs3Th_ILx2TH1-m9ar0F-lRV',
+      cover:
+            'https://drive.google.com/file/d/1a1fCyfvJbJ_dqUngbydCTRKZnRFyfciB/view?usp=sharing',
+    },
+    {
+      name: 'Last minute (最后一分钟)',
+      artist: '滨崎步 (浜崎あゆみ).',
+      url: 'https://drive.google.com/uc?export=download&id=1dP6CwZ9wFc_wJbEn8U3NViAJ1AB77zCx',
+      cover:
+            'https://drive.google.com/uc?export=download&id=1YMT1sdM_poJ7CRlaT0pI_Qij4We1Hm6A',
+    },
+    {
+      name: 'Lost Game size',
+      artist: 'ReoNa (レオナ).',
+      url: 'https://drive.google.com/uc?export=download&id=1oLv98SL3xwJOkND9An3o2nog9FuU1zWf',
+      cover:
+            'https://drive.google.com/uc?export=download&id=1ncAwPIpavEreuaoXZOjkeItGlU-UzZMs',
+    },
+
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
   MUSIC_PLAYER_METING_SERVER:
