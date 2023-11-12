@@ -222,12 +222,12 @@ const BLOG = {
       lrc: 'https://drive.google.com/uc?export=download&id=1Cd6ZjEoFHoX_oTdd_Ik4Sdjj3ghsdNp6',
     },
     {
-      name: '月の記憶',
-      artist: '深澤秀行 (ふかさわ ひでゆき)',
+      name: '光の涯',
+      artist: ' SUGIZO (スギゾー) _ AiNA THE END (アイナ・ジ・エンド)',
       url: 'https://drive.google.com/uc?export=download&id=1iGzS9pINjSieaP9uz8Or5w8Wh5wI9_wc',
       cover:
             'https://drive.google.com/uc?export=download&id=1-etFRbA284A-lyJ1BBGQ7d6KjIPINe3p',
-      lrc: 'https://drive.google.com/uc?export=download&id=1HzaJG-RJ74oIVTV8OQgNDWeUHcx1leqz',
+      lrc: 'music\lrc\光の涯 - SUGIZO (スギゾー) _ AiNA THE END (アイナ・ジ・エンド).lrc',
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
