@@ -208,10 +208,9 @@ const BLOG = {
     {
       name: '10th symphony type_MOON',
       artist: '深澤秀行 (ふかさわ ひでゆき)',
-      url: 'https://drive.google.com/uc?export=download&id=1e-q0rx2kFA4qBSXI42p2XJOY0xegF6UD',
+      url: 'https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBa29SbEh5TU9qdkhnVlg3OG01TkR3NnlwanB6P2U9RDdiMVpO.jpg',
       cover:
-            'https://drive.google.com/uc?export=download&id=10DwUgCCPLVrgd5pocx6lzE4sjdx4gjzC',
-      lrc: 'music\lrc\ 10th symphony type_MOON - 深澤秀行 (ふかさわ ひでゆき).lrc',
+            'https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL2kvcyFBa29SbEh5TU9qdkhnaDdvNnFDOWxmaEhvYWR3P2U9TGQ5bFd0.jpg',
     },
     {
       name: '月の記憶',
