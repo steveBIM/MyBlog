@@ -202,7 +202,7 @@ const BLOG = {
   MUSIC_PLAYER_CDN_URL:
         process.env.NEXT_PUBLIC_MUSIC_PLAYER_CDN_URL ||
         'https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js',
-  MUSIC_PLAYER_ORDER: process.env.NEXT_PUBLIC_MUSIC_PLAYER_ORDER || 'list', // 默认播放方式，顺序 list，随机 random
+  MUSIC_PLAYER_ORDER: process.env.NEXT_PUBLIC_MUSIC_PLAYER_ORDER || 'random', // 默认播放方式，顺序 list，随机 random
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
@@ -213,134 +213,104 @@ const BLOG = {
             'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHgh7o6qC9lfhHoadw',
     },
     {
-      name: '月の記憶',
-      artist: '深澤秀行 (ふかさわ ひでゆき)',
-      url: 'https://drive.google.com/uc?export=download&id=1gxIapp8LxkeK4liCDqSej4LMT8gY0Vm_',
-      cover:
-            'https://drive.google.com/uc?export=download&id=1FsCVwXQhY1HC8pW1WXqke0i07gGVb5GO',
-      lrc: 'https://drive.google.com/uc?export=download&id=1Cd6ZjEoFHoX_oTdd_Ik4Sdjj3ghsdNp6',
-    },
-    {
-      name: '光の涯',
-      artist: 'SUGIZO (スギゾー) _ AiNA THE END (アイナ・ジ・エンド)',
-      url: 'https://drive.google.com/uc?export=download&id=1iGzS9pINjSieaP9uz8Or5w8Wh5wI9_wc',
-      cover:
-            'https://drive.google.com/uc?export=download&id=1-etFRbA284A-lyJ1BBGQ7d6KjIPINe3p',
-      lrc: 'music\lrc\光の涯 - SUGIZO (スギゾー) _ AiNA THE END (アイナ・ジ・エンド).lrc',
-    },
-    {
-      name: '孤島',
-      artist: 'KOKIA (吉田亚纪子)',
-      url: 'https://drive.google.com/uc?export=download&id=18kkXfqjl9QzzEz1IJMGV6piyUPmUGbt4',
-      cover:
-            'https://drive.google.com/uc?export=download&id=1LnwzllsD4oeFEOXJFuv0hiuPWH18ChMs',
-    },
-    {
-      name: '或る従者の閉塞的結論',
-      artist: 'efs (いーえふえす)',
-      url: 'https://drive.google.com/uc?export=download&id=10Ipr0dsSGiHRFRUb9wKRnzqR_TySE_hN',
-      cover:
-            'https://drive.google.com/uc?export=download&id=1kGEdyn0M5iKeMFd6dlp5o2dFDd6XlJkZ',
-    },
-    {
-      name: '空と君のあいだに (天空与你之间)',
-      artist: 'Ms_OOJA (ミス・オオジャ)',
-      url: 'https://drive.google.com/uc?export=download&id=1Kn3u0E5uXqi5ytH6wfUcA8wosFHQ0apw',
-      cover:
-            'https://drive.google.com/uc?export=download&id=1qT6WBzPmsFQVOwA7NS_Vf1soXFAq5uX5',
-    },
-    {
-      name: '海色',
-      artist: 'AKINO (川満愛希信)',
-      url: 'https://drive.google.com/uc?export=download&id=1XlPhvVBX4mWguDVeAYX7CBSVp2EjzOnK',
-      cover:
-            'https://drive.google.com/uc?export=download&id=1TqMv9BNq8_R8p1RaFRbG9DIAw7JijJBU',
-    },
-    {
-      name: '逢いたくて(好想见你)',
-      artist: '宮脇詩音 (みやわき しおん)',
-      url: 'https://drive.google.com/uc?export=download&id=1WlkCwhRvQg6lAJIePGpmdtnbhXn25oqH',
-      cover:
-            'https://drive.google.com/uc?export=download&id=1UDkeO08o9AwNfmTQJagkTBNpwj_vTyem',
-    },
-    {
-      name: '陽だまり探して[with Marcia]',
-      artist: '幽闭星光 (幽閉サテライト)',
-      url: 'https://drive.google.com/uc?export=download&id=1cJGNtmm-rkptNIGf_5as5G8T6xiRjfDL',
-      cover:
-            'https://drive.google.com/uc?export=download&id=1biabtuMqQOXAOyTZe-AhPoBwfeEv5pyd',
-    },
-    {
-      name: '新世界へ',
-      artist: '存流 _ 明透',
-      url: 'https://drive.google.com/uc?export=download&id=1XoltVIFGfVP2joIF73HOjYMWZuONYmQ3',
-      cover:
-            'https://drive.google.com/uc?export=download&id=14wM8Nw2dL0cUUpZ4WFpFw9bWLhAi7eue',
-    },
-    {
-      name: '罪人',
-      artist: 'LiSA (织部里沙)',
-      url: 'https://drive.google.com/uc?export=download&id=1GOxx2l8eKFHEpsnHdqMU8ecLN8Cne7r3',
-      cover:
-            'https://drive.google.com/uc?export=download&id=1mnT122r0yuPWCmrLjWMS2989IupI6H0O',
-    },
-    {
-      name: '零れ桜 (落樱)',
-      artist: '幽闭星光 (幽閉サテライト) _ 森永真由美 (もりなが まゆみ)',
-      url: 'https://drive.google.com/uc?export=download&id=1JXF-1BeRY9xc8eKlrneM0Y54_dr7qdUp',
-      cover:
-            'https://drive.google.com/uc?export=download&id=1_RksQqB0kZeBGquQTN-Jl0oOGpeOYEmu',
-    },
-    {
-      name: '蒼穹のファンファーレ (苍穹的号角)',
-      artist: 'FictionJunction (フィクションジャンクション) _ 藍井エイル (蓝井艾露) _ ASCA (アスカ) _ ReoNa (レオナ)',
-      url: 'https://drive.google.com/uc?export=download&id=1HC2a483S1XQxg8KaeLXq-0tI6FuI9Ei1',
-      cover:
-            'https://drive.google.com/uc?export=download&id=1hk4zC8s4aqxdohPAYNnnpwiab247r5UL',
-    },
-    {
-      name: '輝く空の静寂には (在光辉苍穹的寂静之中)',
-      artist: 'Kalafina (カラフィナ)',
-      url: 'https://drive.google.com/uc?export=download&id=1pebLyr1BqTcDG2kvSUwfO7Rax2IbKcET',
-      cover:
-            'https://drive.google.com/uc?export=download&id=1ayd1iCHQcNpXle6OuNsUNNdPfCSgEuQQ',
-    },
-    {
       name: 'At Your Disposal (feat_ Luschka)',
       artist: 'やまだ豊 (山田豊)',
-      url: 'https://drive.google.com/uc?export=download&id=1JfPRNC7QthW9EdJHiRx8VEQqAYTlGpoM',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgTfzUIs3I7DPOdIc?e=pXyAPm',
       cover:
-            'https://drive.google.com/uc?export=download&id=1xUXnhiE18Kb8v1qV2HGsPoRvw4pP99cv',
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHghasGbM_jR3YIl_w?e=PqEr5I',
     },
     {
       name: 'FOR 送给你的歌',
-      artist: '菅原纱由理THE SxPLAY.',
-      url: 'https://drive.google.com/uc?export=download&id=1iHWKC3jsQJLjDBkmJt3uvC-8vQ1FQfd0',
+      artist: '菅原纱由理THE SxPLAY',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgUUp5lKAChm0sKtn?e=vJ8izT',
       cover:
-            'https://drive.google.com/uc?export=download&id=1hFXXf-PyCKy736dhoBwz1ubp5KNFv45j',
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHgh1Kcm8K4LMYKv-i?e=AZCgkm',
     },
     {
       name: 'GIRAFFE BLUES (Freyja Solo)',
-      artist: '铃木实里 (鈴木みのり).',
-      url: 'https://drive.google.com/uc?export=download&id=1Ddq5PMdnKs3Th_ILx2TH1-m9ar0F-lRV',
+      artist: '铃木实里 (鈴木みのり)',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgTCrDzbDjmYac2EQ?e=tFxFuP',
       cover:
-            'https://drive.google.com/file/d/1a1fCyfvJbJ_dqUngbydCTRKZnRFyfciB/view?usp=sharing',
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHgggtgyjqNx9fRo7G?e=z9G502',
     },
     {
       name: 'Last minute (最后一分钟)',
-      artist: '滨崎步 (浜崎あゆみ).',
-      url: 'https://drive.google.com/uc?export=download&id=1dP6CwZ9wFc_wJbEn8U3NViAJ1AB77zCx',
+      artist: '滨崎步 (浜崎あゆみ)',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgU-tmTFwBpquEiMH?e=WrgC2e',
       cover:
-            'https://drive.google.com/uc?export=download&id=1YMT1sdM_poJ7CRlaT0pI_Qij4We1Hm6A',
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHgjPjJOUQ1RgqgFeo?e=saMLe2',
     },
     {
       name: 'Lost Game size',
-      artist: 'ReoNa (レオナ).',
-      url: 'https://drive.google.com/uc?export=download&id=1oLv98SL3xwJOkND9An3o2nog9FuU1zWf',
+      artist: 'ReoNa (レオナ)',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgTQKEE08QosFj-Zi?e=HwQshb',
       cover:
-            'https://drive.google.com/uc?export=download&id=1ncAwPIpavEreuaoXZOjkeItGlU-UzZMs',
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHghOT8V_Q1_E3kKH2?e=kc84Cw',
     },
-
+    {
+      name: 'Memoir(回忆录)',
+      artist: '鹭起Herons',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgS9O_q9mPJoptXVF?e=oqbE9d',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHggY8DL22q_HJzS3A?e=iUlfjt',
+    },
+    {
+      name: 'Mirror',
+      artist: '安田レイ (安田丽)',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgTJ-GAy0AAnMYYVv?e=JnKxQn',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHghJwghWWredfjjaR?e=kVxrDQ',
+    },
+    {
+      name: 'Not the End',
+      artist: '安田レイ (安田丽)',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgT56o9aO9bmrcZf3?e=8Lfj2a',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHghyizSulykn4v6RS?e=KimIVh',
+    },
+    {
+      name: 'oath sign',
+      artist: 'LiSA (织部里沙)',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgUqzSwhYbHeNbAUA?e=4R1BbQ',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHgi6dXySGHop4504C?e=OFYV2H',
+    },
+    {
+      name: 'petals and butterfly',
+      artist: '梶浦由记',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgWzdv3xnZBuPZrCx?e=KUAJ91',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHghEj7ZHzNYF1nWcW?e=dKJRcb',
+    },
+    {
+      name: 'Regeneration',
+      artist: 'fripSide (フリップサイド)',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgVkMC1pfBA0OpHVo?e=Z9Q49H',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHgiWkLrpDyyctcdns?e=vqpCyU',
+    },
+    {
+      name: 'Remember you',
+      artist: '滨崎步 (浜崎あゆみ)',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgUbsY-O8AfaTKXkP?e=pAOlqJ',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHgiuv-9M9WxyhVhc-?e=Tm4Ggg',
+    },
+    {
+      name: 'Sensitive',
+      artist: 'KOTOKO (ことこ)',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgV3R5pYCoAo0WaVk?e=lhifi9',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHgiKCwnJdLFkdTLtS?e=kd2wxk',
+    },
+    {
+      name: 'STARGAZER ~星の扉 (STARGAZER ～星之门)',
+      artist: '根岸さとり',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgV3R5pYCoAo0WaVk?e=mBYlcP',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHgjQm-M-kveZLp4JI?e=jqglsw',
+    },
+    
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
   MUSIC_PLAYER_METING_SERVER:
