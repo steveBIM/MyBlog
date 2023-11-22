@@ -310,6 +310,132 @@ const BLOG = {
       cover:
             'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHgjQm-M-kveZLp4JI?e=jqglsw',
     },
+    {
+      name: 'The Brave Under The Summer Sky',
+      artist: '原田瞳 (原田ひとみ)',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgVJZoP9OJvkL-HLu?e=0Pe3OU',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHgjbGw9waolAXCGUJ?e=OCYiQW',
+    },
+    {
+      name: 'The last rain',
+      artist: 'Uru (うる)',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgTW63F2D2jEMsZuw?e=VDKLkQ',
+      cover:
+            'hhttps://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHghSYL5VgsysIZhZX',
+    },
+    {
+      name: 'THIS ILLUSION',
+      artist: 'LiSA (织部里沙)',
+      url: 'hhttps://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgVtF6SYhQGbV3OqY?e=6c84fy',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHgiDnSlybjOYmv_zq?e=p8F3P7',
+    },
+    {
+      name: 'TT-KT (ThanksAT)',
+      artist: 'Samuel Kim',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgTaF72c6puhbeRZF?e=7DxLeP',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHghUdP945Sv5DDk9r?e=cKnRAi',
+    },
+    {
+      name: 'TUnti-L＜100S-R2＞',
+      artist: 'ASCA (アスカ) _ 瑞葵 (mizuki)',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgTGFGvKjQ_4URC8U?e=adZqlC',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHggk1bFgAGUHE-GMC?e=PUFaca',
+    },
+    {
+      name: 'White Spell',
+      artist: '麻枝准 (まえだ じゅん) _ やなぎなぎ (柳凪)',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgTNK1Dbi6j-kyd32?e=9n83Wx',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHggrJO1Addkbt_1k3?e=UGKLgg',
+    },
+    {
+      name: 'yes',
+      artist: '山田珠露 (山田タマル)',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHggUcdlEG9Nc6Qz41?e=HWncje',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHgiEP4AVkBxvImXwL?e=lkENK5',
+    },
+    {
+      name: 'Your Voice',
+      artist: '小林未郁 (こばやし みか)',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgU2EZvt5fhtMfNUF?e=tgUhGV',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHgjBfuENQwEQOCMOX?e=a3TCtO',
+    },
+    {
+      name: 'Zen ～然～',
+      artist: '茶太 (ちゃた)',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgVy5o2vlkyQZpSHC?e=CYISca',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHgiNe7BlJ7-tTB8cS?e=O1KJNu',
+    },
+    {
+      name: 'あなたの知らないこと',
+      artist: '村川梨衣 (むらかわ りえ)',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgTopWrHK4DY_nKez?e=fEhFfE',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHghkE4fqffuilqNi5?e=rcn8Ni',
+    },
+    {
+      name: 'サクラノアメモエギノヨ',
+      artist: 'KOTOKO (ことこ)',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgThRSXZ8k9E0u3BI?e=bmQwBd',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHghjo4RNlZyigQQeB?e=lyM2xb',
+    },
+    {
+      name: 'ジュブナイル',
+      artist: 'ReoNa (レオナ)',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgT3dNbzVwpKpI3-8?e=47zOqE',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHgiffNNgeSV81VbIj?e=U1xmBG',
+    },
+    {
+      name: 'スカイクラッドの観測者 (世界线的观测者)',
+      artist: '伊藤加奈子 (いとうかなこ)',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgTm4xPGJECSR0afr?e=m3OUgD',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHgheZKOqB6z7BajQP?e=x3RsQk',
+    },
+    {
+      name: 'そして白に還る (然后一切归于白)',
+      artist: 'ヰ世界情緒',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgUMINuIECaxEKZfH?e=MPcgIH',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHgirFWxH9kD8uE__a?e=aW62pi',
+    },
+    {
+      name: 'たった1つの想い (唯一的思念)',
+      artist: 'KOKIA (吉田亚纪子)',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgUtsoTnT4SqQto2N?e=hKSJXJ',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHgi8ylGSIVXD4LxB3?e=cVVZ08',
+    },
+    {
+      name: 'ニワカアメ (骤雨)',
+      artist: '花たん (花糖)',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgVfxeZUu6aJm9wi8?e=u3G4x2',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHgh9WiQgx3lCmzv59?e=T7EiMI',
+    },
+    {
+      name: 'まるで幻の月をみていたような (犹如看见梦幻之月)',
+      artist: 'mol-74 (モルカル)',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgVT-DlH3rqtp4zml?e=g2UfWO',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHgjj1fB94WjFlBsfZ?e=bhLqmn',
+    },
+    {
+      name: 'ミゼラブルの雫(with senya) (Mizeraburu no Shizuku (with senya)) ',
+      artist: '幽闭星光 (幽閉サテライト)',
+      url: 'https://onw.cc/1drv.ms?url=https://1drv.ms/u/s!AkoRlHyMOjvHgU6gleiFav69DT5s?e=BNMPTj',
+      cover:
+            'https://onw.cc/1drv.ms?url=https://1drv.ms/i/s!AkoRlHyMOjvHgjIJd12mBdja-J9e?e=smfIbP',
+    },
     
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
